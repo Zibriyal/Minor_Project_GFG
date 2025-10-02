@@ -122,9 +122,8 @@ git push -u origin system
 
 ```bash
 ssh -i "my-key.pem" ubuntu@<EC2-PUBLIC-IP>
-
-_(Screenshot (78).png)_
 ```
+_(![alt text](<Screenshot (78)-1.png>))_
 
 2. Update & install required tools:
 
@@ -147,9 +146,8 @@ cd Minor_Project_GFG
 git checkout master
 chmod +x user_script.sh
 ./user_script.sh
-
-_(Screenshot (79).png)_
 ```
+_(![alt text](<Screenshot (79)-1.png>))_
 
 You can also checkout other branches to test other scripts:
 
@@ -211,14 +209,17 @@ docker push zibriyal/gfg-minor-pro:latest
 ```bash
 # Pull image from Docker Hub
 docker pull zibriyal/gfg-minor-pro:latest
+```
 
-_(Screenshot (76).png)_
+_(![alt text](<Screenshot (76)-1.png>))_
 
+```bash
 # Run image interactively
 docker run -it zibriyal/gfg-minor-pro:latest
-
-_(Screenshot (80).png)_
 ```
+
+_(![alt text](<Screenshot (80)-1.png>))_
+
 
 > `-it` is required for interactive scripts like your user menu.
 
